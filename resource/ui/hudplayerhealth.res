@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"VCR"
+		"font"			"VCR5"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"

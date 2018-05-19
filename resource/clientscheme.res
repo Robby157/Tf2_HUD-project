@@ -3016,6 +3016,77 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"VCR5"
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"5"
+				"antialias" "1"
+			}
+		}
+		
+		"VCR15"
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"15"
+				"antialias" "1"
+			}
+		}
+		
+		"VCR25"
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"25"
+				"antialias" "1"
+			}
+		}
+		
+		"VCR35"
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"35"
+				"antialias" "1"
+			}
+		}
+		
+		"VCR45"
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"45"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -5827,5 +5898,10 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		"8" 
+		{
+			"font" "resource/Fonts/VCR.ttf"
+			"name" "VCR OSD Mono"
+			
 	}
 }
