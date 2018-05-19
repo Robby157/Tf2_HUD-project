@@ -3017,27 +3017,6 @@ Scheme
 			}
 		}
 		
-		{
-			"1"
-			{
-				"name"		"ocra"
-				"tall"		"30"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}"
-		{
-			"1"
-			{
-				"name"		"ocra"
-				"tall"		"30"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		
 		"VCR5"
 		{
 			"1"
