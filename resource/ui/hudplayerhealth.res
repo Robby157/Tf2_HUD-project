@@ -5,9 +5,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"300"		[$WIN32]
+		"xpos"			"c-120"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"200"	[$WIN32]
+		"ypos"			"c-40"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"20"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -18,7 +18,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"ForTesting_Magenta"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -29,8 +29,8 @@
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
-		"tall"			"51"
-		"visible"		"1"
+		"tall"			"5"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -40,12 +40,12 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"-100"
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -87,15 +87,75 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"VCR15"
-		"fgcolor"		"Purple"
+		"fgcolor"		"0 255 0 255"
 	}
+	"PlayerStatusHealthValueDropShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueDropShadow"
+		"xpos"			"75"
+		"xpos_minmode"	"61"
+		"ypos"			"51"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"VCR15"
+		"fgcolor"		"225 0 0 255"
+	}
+	"PlayerStatusHealthValueDropShadow01"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueDropShadow01"
+		"xpos"			"77"
+		"xpos_minmode"	"61"
+		"ypos"			"53"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"VCR15"
+		"fgcolor"		"0 0 225 255"
+	}
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"110"
+		"ypos"			"50"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"	 		"3"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
+		"ypos"			"60"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
@@ -104,8 +164,8 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"font"			"VCR5"
+		"fgcolor"		"StoreGreen"
 	}
 	"PlayerStatusBleedImage"
 	{
