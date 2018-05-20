@@ -448,8 +448,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"0 225 0 225"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"0 225 0 225"		Linear 0.0 0.0001
 }
 
 //====================================
